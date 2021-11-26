@@ -1,0 +1,25 @@
+
+<!-- edu_13_6_8.html -->
+<!doctype html>
+<html lang="zh">
+	<head>
+		<meta charset="UTF-8">
+		<title>CSS3动画</title>
+		<style> 
+			div{width:100px;height:100px;background:red;position:relative;color:white;
+				animation:mymove 5s;	
+				}
+			@keyframes mymove
+			{
+				from,0% {left:0px;background:red;top:0px;}
+				25%   {left:400px;background:green;top:0px;}
+                50%   {left:400px;background:green;top:300px;}
+                75%   {left:0px;background:green;top:300px;}
+				to,100%{left:0px;background:blue;top:0px;}
+			}
+		</style>
+	</head>
+	<body>​
+		<div>我在运动！</div>​
+	</body>
+</html>

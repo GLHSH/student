@@ -1,0 +1,19 @@
+body
+{
+    background-color:chartreuse;
+}
+
+span
+{
+    font-weight: bold;
+    text-decoration: underline;
+    color: red;
+}
+
+.s1
+{
+    color: black;
+    font-style: italic;
+    font-size: 24px;
+    font-weight: bold;
+}

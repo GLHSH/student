@@ -1,0 +1,25 @@
+#all
+{
+    width: 350px;height:390px;
+    background-color: yellow;
+    margin-left: 20px;
+}
+#d1
+{
+    width: 320px;
+    height: 50px;
+    border:1px solid;
+    margin-left: 10px;
+    background-color: white;
+}
+#d2
+{
+    margin-top: 5px;
+    margin-left: 10px;
+}   
+td
+{
+    text-align: center;
+    width: 50px;
+    height: 40px;
+}

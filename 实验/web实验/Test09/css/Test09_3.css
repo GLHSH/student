@@ -1,0 +1,31 @@
+#wrap
+{
+	border-width: 900px;
+	margin: 0 auto;
+	border-style: solid 2px red;
+	margin-top: 5px
+}
+div
+{
+	text-align: center;
+}
+
+#left1
+{
+	width: 420px;
+	height: 300px;
+	background-image:  url("../img/ex8.jpg");
+	background-repeat: no-repeat;
+	background-position: center left;
+	background-color: #77A;
+}
+
+#T1
+{
+	background-image:  url("../img/ex8.jpg");
+	background-position:  right;
+	width: 420px;
+	height: 500px;
+	background-color: #77A ;
+	font-size: bold;
+}

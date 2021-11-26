@@ -1,0 +1,61 @@
+ul
+{
+	margin: 0px;
+	padding: 0px;
+}
+
+ul li
+{
+	height: 30px;
+	width: 115px;
+	list-style: none;
+	float: left;
+	display: inline;
+	font: 0.9em Arial, Helvetica, sans-sefif;
+}
+
+ul li a
+{
+	color: #ddd;
+	width: 113px;
+	margin: 0;
+	padding: 0px 0px 0px 8px;
+	text-decoration: none;
+	display: block;
+	background-color: #808080;
+	line-height: 29px;
+	border-right: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+}
+
+ul li ul li
+{
+	height: 25px;
+}
+
+ul li ul a
+{
+	background-color: #666;
+	line-height: 24px;
+}
+
+ul li a:hover
+{
+	background-color: #666;
+	border-bottom: 1px dashed #ff0000;
+}
+
+ul li ul
+{
+	visibility: hidden;
+}
+
+ul li:hover ul
+{
+	visibility: visible;
+}
+
+ul li ul li a:hover
+{
+	background-color: #333;
+}
