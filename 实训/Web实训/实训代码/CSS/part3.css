@@ -1,0 +1,45 @@
+.center{
+    margin-top: 2px;
+    margin-left: 2px;
+    width: 100%;
+    height: 630px;
+}
+/*列类*/
+.center_1,.center_2,.center_3,.center_4
+{
+    width: 24.8%;
+    height: 99.6%;
+    background-color: rgba(255, 255, 255, 0.637);
+    float: left;
+}
+/*标题类*/
+.center_title
+{
+    background-color: rgba(150 146 146 / 64%);
+    height: 6%;
+    text-align: center;
+    padding-top: 14px;
+}
+/*书类*/
+._book
+{
+    margin-left: 2px;
+    height: 91.4%;
+    background-color: #888;
+}
+.top2/*书类盒子*/
+{
+    height: 16.3%;
+    background-color: #B3B3B3;
+    float: left;
+}
+.image1 /*书类 图片*/
+{
+    height: 99.6%;
+    float: left;
+}
+.top2.text1 /*书类盒子-文字盒子*/
+{
+    width: 69%;
+    height: 100%;
+}

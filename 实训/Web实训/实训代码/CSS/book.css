@@ -1,0 +1,72 @@
+.center_1
+{
+    margin-top: 2px;
+    width: 100%;
+    height: 276px;
+    background-color: rgb(235, 183, 183);
+}
+.center_2
+{
+    width: 100%;
+    height: 200px;
+    background-color: rgb(235, 183, 183);
+}
+.main_jie_shao
+{
+    width: 100%;
+    height: 60%;
+}.top2
+{
+    width: 100%;
+    height: 100%;
+    float: left;
+    overflow: hidden;
+}
+.image1
+{
+    width: 99%;
+    width: 30%;
+    float: left;
+}
+.img1
+{
+    height: 270px;
+}
+.text1
+{
+    width: 99%;
+    height: 270px;
+
+}
+.text1 a{
+    display: block;
+    width: 95%;
+}
+.center_2 ul{
+    margin: 0px;
+    padding: 0px;
+    text-align: left;
+}
+.center_2 ul li{
+    height: 40px;
+    width: 10%;
+    list-style: none;
+    float: left;
+    display: inline; 
+    font: 0.9em Arial,Helvetica,sans-serif;
+}
+.center_2 ul li a{
+    color: black;
+    margin: 0px;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    background: #dfbcbc;
+    line-height: 40px;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+.center_2 ul li a:hover{
+    background: #666;
+    border-bottom: 1px dashed rgb(230, 185, 103);
+}

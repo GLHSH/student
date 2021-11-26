@@ -1,0 +1,101 @@
+body{
+    padding: 2px 100px 2px 100px;
+    margin: 2px;
+    background: url(../images/bg-image.jfif);
+}
+div{
+    margin: 1px;
+}
+a{
+
+    text-decoration: none;
+}
+.img {
+    width: 72px;
+    height: 86px;
+    border: solid 1px #DDDDDD;
+    padding: 1px;
+    background-color: white;
+}
+.head{
+    width: 100%;
+    height: 134px;
+}
+.logo{
+    width: 100%;
+    height: 50px;
+    float: left;
+    background: rgba(236, 142, 158, 0.897) ;
+    text-align: center;
+}
+.搜索{
+    width: 100%;
+    height:  40px;
+    float: left;
+    background-color: rgba(236, 142, 158, 0.897);
+}
+.select1{
+    width: 33%;
+    height: 40px;
+    padding-top: 10px;
+    text-align: center;
+    float: left;
+}
+
+.select2{
+    width: 33%;
+    height: 40px;
+    padding-top: 10px;
+    text-align: center;
+    float: left;
+}
+.qie_huan
+{
+    width: 33%;
+    height: 40px;
+    padding-top: 10px;
+    text-align: center;
+    float: right;
+}
+.分类导航
+{
+    width: 100%;
+}
+.分类导航 ul{
+    margin: 0px;
+    padding: 0px;
+    text-align: left;
+}
+.分类导航 ul li{
+    height: 40px;
+    width: 25%;
+    list-style: none;
+    float: left;
+    display: inline; 
+    font: 0.9em Arial,Helvetica,sans-serif;
+}
+.分类导航 ul li a{
+    color: #fff;
+    margin: 0px;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    background: #808080;
+    line-height: 40px;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+.分类导航 ul li a:hover{
+    background: #666;
+    border-bottom: 1px dashed #f00;
+}
+
+/*尾部*/
+.foot{
+    width: 100%;
+    height: 60px;
+}
+.foot .text
+{
+    text-align: center;
+}

@@ -1,0 +1,179 @@
+/*中部*/
+.center /*中部整体盒子*/
+{
+    width: 100%;
+    height: 600px;
+}
+.c_left/*中部-左列*/
+{
+    width: 20%;
+    height: 99.1%;
+    float: left;
+}
+.author/*中部-左列-作者推荐 盒子*/
+{
+    width: 100%;
+    height: 50%;
+    background-color: grey;
+}
+.center_title
+ {
+    width: 99.7%;
+    height: 43px;
+    text-align: center;
+    font-size: 30px;
+    padding-top:8px;
+    background-color: #888;
+ }
+.b/*作家类*/
+{
+    padding-top: 17px;
+    width: 49%;
+    margin: 1px;
+    height: 39px;
+    float: left;
+    font:20px/1 PingFangSC-Regular,Simsun;
+    text-align: center;
+    background-color: rgb(214, 202, 202);
+}
+.tui_jian1/*中部-左列-下方盒子*/
+{
+    width: 100%;
+    height: 50%;
+    background-color: darkgray;
+}
+.top/*带图片的推荐盒子*/
+{
+    width: 99%;
+    height: 35%; 
+	overflow: hidden;
+}  
+.top .image {
+    width: 32%;
+    height: 99.5%;
+	padding: 10px 0px 0px 10px;
+	float: left;
+}
+
+.tui_jian1 ul {
+	padding:  10px 13px;
+	overflow: hidden;
+	margin-top: 0px;
+} 
+.tui_jian1 ul li {
+	border-bottom: solid 1px #DDDDDD;
+	color: #B3B3B3;
+	height: 25px;
+	line-height: 27px;
+	font-size: 12px;
+	overflow: hidden;
+	float: left;
+	width: 50%;
+}
+.tui_jian1 ul li a {
+	font-size: 13px;
+	text-align: left;
+}
+/*中部-左列结束*/
+
+/*中部-中列*/
+.c_center
+{
+	margin-left: 4px;
+	margin-right: 3px;
+    width: 59%;
+    height: 99.39%;
+    float: left;
+
+}
+.tui_jian2
+{
+    margin-top:-2px;
+    height: 91%;
+}
+.lun_bo
+{
+    width: 100%;
+    height: 45%;
+    background-color: #DDDDDD;
+}
+.lun_bo img{
+
+    width:100%;
+    height: 244px;
+    overflow: hidden;
+}
+/*中部-中列-下方推荐栏2*/
+._book
+{
+    margin-top: 3px;
+    margin-left: 1px;
+    width:100%;
+    height: 55%;
+    background-color: #888;
+}
+.top2/*书类盒子*/
+{
+    width: 33%;
+    height: 31%;
+    background-color: #B3B3B3;
+    float: left;
+}
+.image1 /*书类 图片*/
+{
+    height: 99.6%;
+    float: left;
+}
+.top2.text1 /*书类盒子-文字盒子*/
+{
+    width: 69%;
+    height: 100%;
+}
+/*中部-中列结束*/
+
+/*中部-右列*/
+.c_right
+{
+    width: 20%;
+    height: 99.39%;
+    float: right;
+    background-color: rgba(34, 95, 175, 0.63);
+}
+.c_right .top
+{
+	height: 17%;
+}
+.c_right ul {
+	padding:  10px 13px;
+	overflow: hidden;
+	margin-top: 0px;
+} 
+.c_right ul li {
+	border-bottom: solid 1px #DDDDDD;
+	color: #B3B3B3;
+	height: 26px;
+	line-height: 27px;
+	font-size: 12px;
+	overflow: hidden;
+	float: left;
+	width: 100%;
+}
+.c_right ul li a {
+	font-size: 13px;
+	text-align: left;
+}
+/* 中部-右列结束*/
+/* 中部 结束*/
+
+
+
+/*ul li ul{
+    visibility: hidden;
+}
+ul li:hover ul{
+    visibility: visible;
+}
+ul li ul a:hover{
+    background: #333;
+}**/
+

@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" lang="zh">
+    <link rel="stylesheet" type="text/css" href="../CSS/head&foot.css">
+    <link rel="stylesheet" type="text/css" href="../CSS/index.css">
+    <title>网络文学-首页</title>
+</head>
+<body>
+    <div class="head">
+        <div class="logo"><img src="../摸鱼小屋.png" width="9%" alt=""></div>
+        <div class="搜索">
+            <div class="select1">
+                书名搜索:
+                    <input type="text" name="" placeholder="请输入书名" size="20">
+                    <input type="button" name="" value="提交">
+            </div>
+            <div class="select2">
+                作者搜索:
+                    <input type="text" name="" placeholder="请输入作者名" size="20">
+                    <input type="button" name="" value="提交" >
+            </div>
+        </div>
+        <div class="分类导航">
+            <ul>
+                <li><a href="index.html">首页</a></li>
+                <li><a href="part1.html">全部作品</a></li>
+                <li><a href="part3.html">排行榜</a></li>
+                <li><a href="part4.html">留言板</a></li>
+            </ul>
+        </div>  
+    </div>
+    <div class="center">
+        <div class="c_left">
+            <div class="author">
+                <div class="center_title" style="height: 14%;">作者推荐</div>
+                <div style="margin-top: 10px;">
+                    <div class="b"><a href="author1.html">唐家三少</a></div>
+                    <div class="b"><a href="author2.html">辰东</a></div>   
+                    <div class="b"><a href="author1.html">天蚕土豆</a></div>
+                    <div class="b"><a href="author2.html">饿是老五</a></div>  
+                    <div class="b"><a href="author1.html">鱼人二代</a></div>
+                    <div class="b"><a href="author2.html">带玉</a></div>
+                    <div class="b"><a href="author1.html">作者</a></div>
+                    <div class="b"><a href="author2.html">作者</a></div>    
+                </div>
+            </div>
+            <div class="tui_jian1">
+                <div class="center_title" >新书榜单</div>
+                <div class="top" >
+                    <div class="image">
+                        <a href="book2.html"><img class="img" src="../images/绝世唐门.jfif"  /></a>
+                    </div>
+                    <dl>
+                        <dt><a href="book2.html">绝世唐门</a></dt>
+                        <dt style="	line-height: 15px;height:80px;overflow: hidden;"><a href="book2.html" style="color: #555">万年前，混世大魔王林天在人界成为无敌传说。万年后，…</a></dt>
+                    </dl>
+                </div>
+				<ul>
+					<li><a href="book2.html">绝世邪神</a>/纯情犀利哥</li>                               
+					<li><a href="book2.html">至尊元帝</a>/鱼人</li>                               
+					<li><a href="book2.html">武人无敌</a>/奇然</li>                               
+					<li><a href="book2.html">将门玉女</a>/柳絮</li>                               
+					<li><a href="book2.html">莫负轮回</a>/轮回</li>                               
+					<li><a href="book2.html">蝶恋花</a>/苏</li>                               
+					<li><a href="book2.html">旧日方舟</a>/周</li>                               
+					<li><a href="book2.html">蜀绣</a>/苏苏</li>                               
+					<li><a href="book2.html">诸天</a>/天</li>                               
+					<li><a href="book2.html">至尊帝</a>/帝</li>                               
+		    	</ul>
+            </div>
+        </div>
+        <div class="c_center">
+            <div class="center_title" style="margin-left:2px;">
+                精品推荐
+            </div>
+            <div class="tui_jian2">
+                <div class="lun_bo">
+                        <a href="book1.html" id="a1"><img id="img1"  src="../images/斗罗大陆11.jfif" alt=""></a>
+                    <div class="下一张" id="下一张"></div>
+                    <script>
+                        var address = ["../images/斗罗大陆11.jfif","../images/绝世唐门11.jfif","../images/完美世界11.jfif"];
+                        var address1 = ["book1.html","book2.html","book3.html"];   
+                        var len = address.length;               
+                        var 下一张 = document.getElementById("下一张");
+                        var n = 0;
+                        下一张.onclick = function () {            
+                            if (n>len-1) {
+                                n=0;
+                            }
+                            img1.src = address[n];
+                            a1.href = address1[n];
+                            n++;
+                            }
+                    setInterval(下一张.onclick,1000);
+                </script>
+                </div>
+                <div class="_book">
+                    <div class="top2"><!--书本类-->
+                        <div class="image1">
+                            <a href="book1.html"><img class="img" src="../images/斗罗大陆.jfif".  /></a>
+                        </div>
+                        <div class="text1" >
+                            <a href="book1.html">斗罗大陆</a><br>
+                            <a href="book1.html" style="color: #555">小说主要描绘了一个名叫斗罗大陆的武魂世界。唐门外门弟子唐三，因...</a>
+                        </div>
+                    </div>
+                    <div class="top2"><!--书本类-->
+                        <div class="image1">
+                            <a href="book1.html"><img class="img" src="../images/最佳女婿.jpg".  /></a>
+                        </div>
+                        <div class="text1" >
+                            <a href="book1.html">最佳女婿</a><br>
+                            <a href="book1.html" style="color: #555">被一把大火烧的尸骨无存的林羽意外获得先祖传承，将灵魂附身……</a>
+                        </div>
+                    </div>
+                    <div class="top2"><!--书本类-->
+                        <div class="image1">
+                            <a href="book1.html"><img class="img" src="../images/最强兵王.jpg".  /></a>
+                        </div>
+                        <div class="text1" >
+                            <a href="book1.html">最强狂兵</a><br>
+                            <a href="book1.html" style="color: #555">他是国之重器，却亦正亦邪，正能守国门摄八方，邪能一剑西去血流...</a>
+                        </div>
+                    </div>
+                    <div class="top2"><!--书本类-->
+                        <div class="image1">
+                            <a href="book1.html"><img class="img" src="../images/武动乾坤.jpg".  /></a>
+                        </div>
+                        <div class="text1" >
+                            <a href="book1.html">武动乾坤</a><br>
+                            <a href="book1.html" style="color: #555">修炼一途，夺造化，转涅盘,掌轮回。武之极，破苍穹，动乾坤！...</a>
+                        </div>
+                    </div> 
+                    <div class="top2"><!--书本类-->
+                        <div class="image1">
+                            <a href="book1.html"><img class="img" src="../images/荒蛮纪.jpg".  /></a>
+                        </div>
+                        <div class="text1" >
+                            <a href="book1.html">荒蛮纪</a><br>
+                            <a href="book1.html" style="color: #555">地球少年持魔尊传承降临异界，任蛮为亲，以神为骨，吞九幽噬阴阳...</a>
+                        </div>
+                    </div> 
+                    <div class="top2"><!--书本类-->
+                        <div class="image1">
+                            <a href="book1.html"><img class="img" src="../images/逆天邪神.jpg".  /></a>
+                        </div>
+                        <div class="text1" >
+                            <a href="book1.html">逆天邪神</a><br>
+                            <a href="book1.html" style="color: #555">掌天毒之珠，承邪神之血，修逆天之力，一代邪神，君临天下！...</a>
+                        </div>
+                    </div>    
+                    <div class="top2"><!--书本类-->
+                        <div class="image1">
+                            <a href="book1.html"><img class="img" src="../images/伏天氏.jpg".  /></a>
+                        </div>
+                        <div class="text1" >
+                            <a href="book1.html">伏天氏</a><br>
+                            <a href="book1.html" style="color: #555">东方神州，有人皇立道统，有圣贤宗门传道，有诸侯雄踞一方王...</a>
+                        </div>
+                    </div>   
+                    <div class="top2"><!--书本类-->
+                        <div class="image1">
+                            <a href="book1.html"><img class="img" src="../images/元尊.jpg".  /></a>
+                        </div>
+                        <div class="text1" >
+                            <a href="book1.html">元尊</a><br>
+                            <a href="book1.html" style="color: #555">东方神州，有人皇立道统，有圣贤宗门传道，有诸侯雄踞一方王...</a>
+                        </div>
+                    </div> 
+                    <div class="top2"><!--书本类-->
+                        <div class="image1">
+                            <a href="book1.html"><img class="img" src="../images/凡人修仙.jpg".  /></a>
+                        </div>
+                        <div class="text1" >
+                            <a href="book1.html">凡人修仙传</a><br>
+                            <a href="book1.html" style="color: #555">一个普通山村小子，偶然下进入到当地江湖小门派，成了一名记...</a>
+                        </div>
+                    </div>  
+                    <a href="part1.html" style="display: block; width: 100%;height: 10px; font-size: 8px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        查看更多</a>
+                </div>
+
+            </div>
+        </div>
+        <div class="c_right">
+            <div class="center_title">人气飙升</div>
+			<div class="top" >
+				<div class="image">
+					<a href="book3.html"><img class="img" class="img" src="../images/完美世界.jfif"  alt="史上最狂老祖" /></a>
+				</div>
+				<dl>
+					<dt><a href="book3.html">完美世界</a></dt>
+					<dt style="	line-height: 15px;height:80px;overflow: hidden;"><a href="/book/267668/" style="color: #555">这个世界，有儒；有道；有佛；有妖；有术士。警校毕业的许七安幽幽醒来，发...</a></dt>
+				</dl>
+			</div>
+			<ul>
+				<li><a href="book3.html">绝世邪神</a>纯情犀利哥</li>                               
+				<li><a href="book3.html">至尊元帝</a>/鱼人</li>                               
+				<li><a href="book3.html">武人无敌</a>/奇然</li>                               
+				<li><a href="book3.html">将门玉女</a>/柳絮</li>                               
+				<li><a href="book3.html">莫负轮回</a>/轮回</li>                               
+				<li><a href="book3.html">蝶恋花</a>/苏</li>                               
+				<li><a href="book3.html">旧日方舟</a>/周</li>                               					<li><a href="book2.html">蜀绣</a>/苏苏</li>                               
+				<li><a href="book3.html">诸天</a>/天</li>                               
+				<li><a href="book3.html">至尊帝</a>/帝</li>
+                <li><a href="book3.html">绝世邪神</a>纯情犀利哥</li>                               
+				<li><a href="book3.html">至尊元帝</a>/鱼人</li>                               
+				<li><a href="book3.html">武人无敌</a>/奇然</li>                               
+				<li><a href="book3.html">将门玉女</a>/柳絮</li>                               
+				<li><a href="book3.html">莫负轮回</a>/轮回</li>                               
+				<li><a href="book3.html">蝶恋花</a>/苏</li>                               
+            </ul>	
+        </div>
+    </div>
+    <div class="foot">
+        <div class="text">
+			<hr>
+			    本站全部书籍版权归作者所有
+			<hr>
+		</div>
+    </div>
+</body>
+</html>
+

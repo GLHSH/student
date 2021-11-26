@@ -1,0 +1,83 @@
+h3
+{
+    text-align: center;
+    font-size: 30px;
+}
+.center
+{
+    width: 100%;
+    height: 1400px;
+}
+.center_left
+{
+    width: 94%;
+    height: 100%;
+    float: left;
+}
+
+
+.title
+{
+    margin-bottom: 6px;
+    width: 100%;
+    height: 15%;
+}
+
+.a
+{
+    width: 100%;
+    height: 17.5%;
+    background-color: rgba(255, 255, 255, 0.644);
+}
+.top2/*书类盒子*/
+{
+    
+    width: 16.5%;
+    height: 40%;
+    background-color: #B3B3B3;
+    float: left;
+}
+.image1 /*书类 图片*/
+{
+    height: 99.6%;
+    float: left;
+}
+.top2.text1 /*书类盒子-文字盒子*/
+{
+    width: 69%;
+    height: 100%;
+}
+.center_right
+{
+    width: 5.6%;
+    float: right; 
+    position: fixed;
+    right: 5.9%;
+    top: 169px;
+}
+.center_right ul{
+    margin: 0px;
+    padding: 0px;
+    text-align: left;
+}
+.center_right ul li{
+    height: 30px;
+    width: 89%;
+    list-style: none;
+    float: left;
+    font: 0.9em Arial,Helvetica,sans-serif;
+    margin-top: 1px;
+}
+.center_right ul li a{
+
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    background: #808080;
+    line-height: 30px;
+}
+.center_right ul li a:hover{
+    background: #666;
+    border-bottom: 1px dashed #f00;
+}
